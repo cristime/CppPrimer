@@ -1,5 +1,5 @@
 # CppPrimer
-C++ Primer ( 5th Editon) Practice codes.
+C++ Primer ( 5th Editon ) Practice codes.
 
 ### Hint:
 You can fork this repository and start a GitHub Codespace to view and edit the codes.
