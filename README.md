@@ -11,3 +11,4 @@ All the codes were edited in the GitHub Codespace.
 ### Progress:
 * Chapter 1
 * Chapter 2
+* Chapter 3 -- till practice 3.10
