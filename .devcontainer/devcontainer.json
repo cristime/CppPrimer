@@ -27,7 +27,8 @@
 				"yzhang.markdown-all-in-one",
 				"PKief.material-icon-theme",
 				"mutantdino.resourcemonitor",
-				"albert.TabOut"
+				"albert.TabOut",
+				"vscodevim.vim"
 			],
 			"settings": {
 				"editor.fontFamily": "Fira Code",
