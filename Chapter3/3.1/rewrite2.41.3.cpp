@@ -18,8 +18,7 @@ int main()
     if (cin >> item.bookNo >> item.units_sold >> price) {
         item.revenue = item.units_sold * price;
         ans = item;
-        while (cin >> item.bookNo >> item.units_sold >> price)
-        {
+        while (cin >> item.bookNo >> item.units_sold >> price) {
             item.revenue = item.units_sold * price;
             if (item.bookNo != ans.bookNo) {
                 cerr << "Different ISBNs\n";
@@ -28,11 +27,9 @@ int main()
             ans.units_sold += item.units_sold;
             ans.revenue += item.revenue;
         }
-        cout << "Sum of the records is: " << ans.bookNo << " "
-                  << ans.units_sold << " "
-                  << ans.revenue << " "
-                  << (ans.units_sold ? ans.revenue / ans.units_sold : 0)
-                  << endl;
+        cout << "Sum of the records is: " << ans.bookNo << " " << ans.units_sold
+             << " " << ans.revenue << " "
+             << (ans.units_sold ? ans.revenue / ans.units_sold : 0) << endl;
     } else
         cerr << "No data" << endl;
     return 0;

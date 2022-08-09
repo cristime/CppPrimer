@@ -11,10 +11,10 @@ int main()
     getline(cin, a);
     getline(cin, b);
 
-    if ( a == b )
+    if (a == b)
         cout << "The string A is equal to string B.\n";
     else
-        cout << "The string " << ( a > b ? a : b ) << " is bigger.\n";
-    
+        cout << "The string " << (a > b ? a : b) << " is bigger.\n";
+
     return 0;
 }

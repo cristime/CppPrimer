@@ -13,6 +13,6 @@ int main()
     // Read words
     cout << "Input a couple of words." << endl;
     while (cin >> input)
-        cout << input << endl; 
+        cout << input << endl;
     return 0;
 }

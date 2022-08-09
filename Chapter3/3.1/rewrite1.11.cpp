@@ -8,8 +8,7 @@ int main()
     cout << "Enter two numbers: ";
     cin >> l >> r;
     // l = std::min( l, r ); r = std::max( l, r );
-    while ( l <= r )
-    {
+    while (l <= r) {
         cout << l << " ";
         ++l;
     }

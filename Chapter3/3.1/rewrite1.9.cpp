@@ -3,8 +3,7 @@ int main()
 {
     using std::cout, std::endl;
     int sum = 0, count = 50;
-    while ( count <= 100 )
-    {
+    while (count <= 100) {
         sum += count;
         ++count;
     }

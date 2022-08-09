@@ -13,11 +13,8 @@ int main()
 {
     Sales_data book;
     cout << "Enter some information:\n";
-    while ( cin >> book.bookNo >> book.units_sold >> book.revenue )
-        cout << book.bookNo << " "
-                  << book.units_sold << " "
-                  << book.revenue << " "
-                  << ( book.units_sold ? book.revenue / book.units_sold : 0 )
-                  << endl;
+    while (cin >> book.bookNo >> book.units_sold >> book.revenue)
+        cout << book.bookNo << " " << book.units_sold << " " << book.revenue << " "
+             << (book.units_sold ? book.revenue / book.units_sold : 0) << endl;
     return 0;
 }

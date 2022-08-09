@@ -11,10 +11,11 @@ int main()
     getline(cin, a);
     getline(cin, b);
 
-    if ( a.length() == b.length() )
+    if (a.length() == b.length())
         cout << "The length of string A is equal to string B.\n";
     else
-        cout << "The string " << ( a.length() > b.length() ? a : b ) << " is longer.\n";
-    
+        cout << "The string " << (a.length() > b.length() ? a : b)
+             << " is longer.\n";
+
     return 0;
 }

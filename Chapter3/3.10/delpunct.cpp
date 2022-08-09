@@ -1,13 +1,13 @@
+#include <cctype>
 #include <iostream>
 #include <string>
-#include <cctype>
 
 int main()
 {
     using namespace std;
 
     cout << "Enter a line.\n";
-    
+
     string str;
     getline(cin, str);
 

@@ -13,8 +13,7 @@ int main()
     string::size_type pos = 0;
     while (pos < str.length())
         str[pos++] = 'X';
-        
-    
+
     cout << "Replaced word: " << str << endl;
 
     return 0;
